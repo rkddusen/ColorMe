@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color, me</title>
+    <link rel="stylesheet" href="../coloris/coloris.min.css"/>
+    <script src="../coloris/coloris.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="./popup.css"/>
+</head>
+
+<body>
+    <div id="contents">
+        <div id="color-picker">
+            <div id="color-input">
+                <input type="text" value="#000000" id="color-value" data-coloris>
+                <div class="btnArea">
+                    <button id="addBtn">Select</button>
+                    <button id="resetBtn">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div id="color-choice">
+            <ol id="color-name"></ol>
+            <div id="color-palette">
+                <div id="color-palette-explain">
+                    <p>You can see</p>
+                    <p>Combination</p>
+                    <p>here</p>
+                </div>
+            </div>
+        </div>
+        <div id="color-save">
+            <input type="text" placeholder="Enter Colors Name" id="combination-name" /> 
+            <div class="btnArea">
+                <button id="saveBtn">Save</button>
+                <button id="cancelBtn">Cancel</button>
+            </div>
+        </div>
+        <div id="color-saved">
+
+        </div>
+    </div>
+</body>
+
+</html>
